@@ -1,0 +1,17 @@
+/* Fondo negro + texto blanco al hover */
+.nav-link {
+  transition: all 0.3s ease;
+  border-radius: 9999px;
+  padding: 12px 20px;
+}
+
+/* Efecto hover: fondo negro y texto blanco */
+.nav-link:hover {
+  background-color: #000 !important;
+  color: white !important;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
+}
